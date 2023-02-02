@@ -46,12 +46,16 @@
 .nav_main{
     font-family: 'Satoshi';
     text-align: center;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 20px;
     line-height: 140%;
     color: #333F72;
-   
+    cursor: pointer;
+    padding-bottom: 40px;
+    padding-top: 31px;
+    border: 2px solid #E9DAC6;
 }
+
 
 ul {
     list-style: none;
@@ -59,15 +63,27 @@ ul {
 }
 li{
     list-style: none;
-    justify-content: space-between;
+    display: inline-block;
+    padding: 5px 48px;
     font-family: 'SATOSHI';
     font-weight: bold;
     color: #333F72;
 }
 
-.iconmenu {
+.iconcart {
     display: flex;
     position: absolute;
+    flex-direction: row;
+    align-items:center;
+    padding: 0px;
+    gap: 24px;
+    left: 1240px;
+    top: 42px;
+}
+.iconuser {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
     align-items:center;
     padding: 0px;
     gap: 24px;
@@ -83,6 +99,7 @@ h1 {
     font-family: 'HIRO MISAKE';
     color: #333F72;
     padding-bottom: 24px;
+    padding-top: 40px;
 }
 h4{
     font-size: 20px;
@@ -104,6 +121,12 @@ h4{
     margin-left: auto;
     margin-right: auto;
     border-color: #e56e0c;
+    cursor: pointer;
+}
+
+.buttonOrder:hover {
+    background-color: #F3EDE1;
+    color: #e56e0c;
 }
 
 .ramen {
@@ -159,6 +182,7 @@ h4{
     font-family: 'SATOSHI';
     font-size: 14px;
     color: #333F72;
+    padding-left: 170px;
 }
 
 .button_card {
@@ -175,8 +199,12 @@ h4{
     margin-left: auto;
     margin-right: auto;
     border-color: #e56e0c; 
+    cursor: pointer;
 }
-
+.button_card:hover {
+    color: #F3EDE1;
+    background-color: #e56e0c;
+}
 
 
 /*Testimonios de Personas*/
