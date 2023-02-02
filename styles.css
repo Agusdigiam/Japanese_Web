@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --darkviolet: #333f72;
+    --orange: #e56e0c;
+    --lightwhite: #F3EDE1;
+    background: #F3EDE1;
+    --primaryfont: 'HIRO MISAKE' ;
+    --secondaryfont: 'SATOSHI' ;
+}
+
+
+
+/*Logo Brand*/
+
+
+
+
+.logo_brand {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 80px;
+    top: 42px;
+
+    font-family: 'HIRO MISAKE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333F72;
+}
+
+/*Estilos de Navegacion*/
+
+.nav_main{
+    font-family: 'Satoshi';
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333F72;
+   
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'SATOSHI';
+    font-weight: bold;
+    color: #333F72;
+}
+
+.iconmenu {
+    display: flex;
+    position: absolute;
+    align-items:center;
+    padding: 0px;
+    gap: 24px;
+    left: 1288px;
+    top: 42px;
+}
+
+/*Middle Card*/
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'HIRO MISAKE';
+    color: #333F72;
+    padding-bottom: 24px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'SATOSHI';
+    padding-bottom: 24px;
+    color: #333F72;
+    font-weight: lighter;
+    
+}
+.buttonOrder {
+    font-family: 'HIRO MISAKE';
+    display: flex;
+    font-size: 25px;
+    border-radius: 15px 0 15px 0;
+    color: #F3EDE1;
+    background-color: #e56e0c;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e56e0c;
+}
+
+.ramen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+
+}
+
+.japanlet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*Cartas de Menu*/
+
+.second_middle_card {
+    font-family: 'HIRO MISAKE';
+    text-align: center;
+    font-size: 30px ;
+    color: #333F72;
+    padding-bottom: 40px;
+}
+
+.second_middle_card_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 1280px;
+    height: 366px;
+    padding-left: 70px ;
+
+}
+
+.bordercard {
+    border-radius: 25px 0 25px 0;
+    border: solid 2px #333F72;
+    padding: 14px;
+}
+
+.titulo_card {
+    font-family: 'HIRO MISAKE';
+    font-size: 32px;
+    color: #333F72;
+}
+
+.subtittle {
+    font-family: 'SATOSHI';
+    font-size: 14px;
+    color: #333F72;
+}
+
+.button_card {
+    font-family: 'HIRO MISAKE';
+    display: flex;
+    font-size: 19px;
+    border-radius: 15px 0 15px 0;
+    color: #e56e0c;
+    background-color: #F3EDE1;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e56e0c; 
+}
+
+
+
+/*Testimonios de Personas*/
+
+.third_middle_card {
+    font-family: 'HIRO MISAKE';
+    text-align: center;
+    font-size: 30px ;
+    color: #333F72;
+    
+}
+
+.test1 {
+    margin-right: 62%;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+}
+
+
+.test2 {
+    display: flex;
+    margin-right: 5%;
+    position: absolute;
+    align-items: center;
+    left: 30%;
+    top: 163% ;
+  
+}
+.test3 {
+    display:flexbox;
+    margin-left: 12%;
+    position:absolute;
+    top:  137%;
+}
+
+/*Aqui comienza el Footer*/
+
+.footer_Card{
+    text-align: center;
+    text-decoration: none;
+    background-color: #333F72;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+a {
+    list-style: none;
+}
