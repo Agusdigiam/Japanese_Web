@@ -92,22 +92,41 @@ li{
 }
 
 /*Middle Card*/
+.middle_card{
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    flex-direction: column;
+    display: flex;
+}
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
     text-align: center;
     font-family: 'HIRO MISAKE';
     color: #333F72;
     padding-bottom: 24px;
     padding-top: 40px;
+    width: 837px;
+    height: 196px;
+    line-height: 120%;
+    font-weight: 400;
 }
 h4{
     font-size: 20px;
+    align-items: center;
     text-align: center;
     font-family: 'SATOSHI';
     padding-bottom: 24px;
     color: #333F72;
-    font-weight: lighter;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 20px;
+    line-height: 140%;
+    width: 620px;
+    height: 84px;
     
 }
 .buttonOrder {
@@ -214,32 +233,46 @@ h4{
     text-align: center;
     font-size: 30px ;
     color: #333F72;
+    padding-top: 40px;
     
 }
 
-.test1 {
-    margin-right: 62%;
+.container_person {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 0px;
-
+    gap: 70px;
+    width: 1280px;
+    height: 537.89px;
+    position: relative;
 }
 
+/*Personas*/
 
-.test2 {
-    display: flex;
-    margin-right: 5%;
+.person1 {
     position: absolute;
-    align-items: center;
-    left: 30%;
-    top: 163% ;
-  
+    width: 497.1px;
+    height: 313.06px;
+    left: 0px;
+    top: 98px;
 }
-.test3 {
-    display:flexbox;
-    margin-left: 12%;
-    position:absolute;
-    top:  137%;
+
+.person3 {
+    position: absolute;
+    width: 493px;
+    height: 303.94px;
+    left: 787px;
+    top: 98px;
+
+}
+.person2 {
+    position: absolute;
+    width: 488.1px;
+    height: 276.89px;
+    left: 376px;
+    top: 261px;
+
 }
 
 /*Aqui comienza el Footer*/
