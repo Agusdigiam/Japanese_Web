@@ -70,6 +70,10 @@ li{
     color: #333F72;
 }
 
+li:hover{
+    color: #e56e0c;
+}
+
 .iconcart {
     display: flex;
     position: absolute;
