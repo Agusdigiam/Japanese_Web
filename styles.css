@@ -281,39 +281,52 @@ h4{
 
 /*Aqui comienza el Footer*/
 
-.footer_Card{
-    text-align: center;
-    text-decoration: none;
+.footer_final {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 80px;
-    position: absolute;
-    width: 2016px;
-    height: 1674.89px;
-    left: -288px;
-    top: 1149px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 172px;
+    width: 1440px;
+    height: 293px;
+    background: #1D2544;
     
+}
+.logo_footer {
+    color: #E9DAC6;
+    font-family: 'HIRO MISAKE';
 
 }
 
-.logo_brand{
-    font-family: 'HIRO MISAKE';
+.nav_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 985px;
+    height: 197px;
+    font-family: 'SATOSHI';
+    font-weight: lighter;
+    color: #F3EDE1;
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+.li_footer{
+    list-style: none ;
     color: #E9DAC6;
 }
 
-ul {
-    
-    list-style: none;
+.a{
+    text-decoration: none;
+    color: #E9DAC6;
 }
 
-li{
-    list-style: none;
-    
-    
-}
-a {
-    text-decoration: none;
-    list-style: none;
+.social_media_footer {
+    width: 148px;
+    height: 28px;
+    cursor: pointer;
 }
