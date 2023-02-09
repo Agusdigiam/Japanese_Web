@@ -63,7 +63,7 @@ body {
     text-decoration: none;
     font-family: 'SATOSHI';
     font-weight: 800;
-    color: #1D2544;
+    color: #333f72;
 
 }
 .header__icons-contain{
@@ -306,3 +306,6 @@ h4{
     height: 28px;
     cursor: pointer;
 }
+
+/*Esta pagina web fue replicada por Agustin Di Giambatista en FEBRERO DEL 2023*/
+/*Con una plantilla extraida de FIGMA*/
